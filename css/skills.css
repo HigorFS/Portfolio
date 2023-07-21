@@ -1,0 +1,53 @@
+.skills {
+    background: #6d4fbe;
+    justify-content: space-between;
+    margin: 0;
+    padding-top: 4rem;
+}
+
+.skill {
+    align-items: center;
+    justify-content: space-between;
+}
+
+.skill-titulo {
+    color: #fcf8f8;
+    display: flex;
+    font-size: 4rem;
+    justify-content: center;
+    text-decoration: none;
+}
+
+ 
+.card {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: space-evenly;
+    display: flex;
+    padding: 5rem;
+}
+
+.skill__html {
+    background-image: url('../img/logo-html5.svg');
+    height: 100px;
+    width: 100px;
+}
+
+.skill__css {
+    background-image: url('../img/logo-css3.svg');
+    height: 100px;
+    width: 100px;
+}
+
+.skill__javascript {
+    background-image: url('../img/logo-javascript.svg');
+    height: 100px;
+    width: 100px;
+}
+
+.skill__react {
+    background-image: url('../img/logo-react.svg');
+    height: 100px;
+    width: 100px;
+}

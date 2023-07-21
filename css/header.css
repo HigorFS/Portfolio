@@ -1,0 +1,39 @@
+.cabecalho {
+    align-items: center;
+    box-sizing: border-box;
+    background-color: #5f45a7;
+    display: flex;
+    justify-content: space-between;
+    padding: 0.75rem;
+    width: 100%;
+}
+
+.cabecalhoPrincipal-titulo .titulo{
+    text-decoration: none;
+    color: #fcf8f8;
+    font-size: 2rem;
+    margin-left: 2rem;
+}
+
+.menu-lista {
+    list-style: none;
+    margin: 0;
+    padding: 0 5rem;
+    display: flex;
+}
+
+.menu-item {
+    margin-left: 1.5rem;
+    margin-right: 1rem;
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 16px;
+}
+
+.menu-item:hover{
+    color: rgb(133, 131, 131);
+    font-weight: bold;
+    text-decoration: underline;
+    transition: 0.3s;
+}
+
