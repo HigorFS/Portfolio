@@ -1,7 +1,7 @@
 .cabecalho {
     align-items: center;
     box-sizing: border-box;
-    background-color: #5f45a7;
+    background-color: #4c5a70;
     display: flex;
     justify-content: space-between;
     padding: 0.75rem;
@@ -10,7 +10,7 @@
 
 .cabecalhoPrincipal-titulo .titulo{
     text-decoration: none;
-    color: #fcf8f8;
+    color: #000000;
     font-size: 2rem;
     margin-left: 2rem;
 }
@@ -23,15 +23,15 @@
 }
 
 .menu-item {
-    margin-left: 1.5rem;
+    margin-left: 2rem;
     margin-right: 1rem;
     text-decoration: none;
-    color: #ffffff;
+    color: #000000;
     font-size: 16px;
 }
 
 .menu-item:hover{
-    color: rgb(133, 131, 131);
+    color: rgb(119, 21, 21);
     font-weight: bold;
     text-decoration: underline;
     transition: 0.3s;

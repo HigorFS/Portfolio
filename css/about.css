@@ -1,13 +1,13 @@
-.sobre {
-    background: #6d4fbe;
-    color: rgb(255, 255, 255);
+.about {
+    background: #ffffff44;
+    color: rgb(0, 0, 0);
     display: flex;
     justify-content: space-between;
     margin: 0;
     padding: 2rem;
 }
 
-.apresentacao {
+.presentation {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
 }
@@ -23,7 +23,7 @@
     width: 300px;
 }
 
-.pessoa__imagem {
+.pessoa__img {
     background-image: url('../img/avatar.jpeg');
 }
 
@@ -35,24 +35,25 @@
 }
 
 .intro h1 {
-    font-size: 3rem;
+    font-size: 2rem;
 }
 
 .intro span {
-    font-size: 3rem;
+    font-size: 4rem;
 }
 
 .intro p {
-    font-size: 1.5rem;
+    font-size: 2rem;
+    padding-top: 2rem;
 }
 
-.about {
+.about-description {
     grid-column: 2/2;
     text-align: center;
     padding-top: 2rem;
 }
 
-.about p {
+.about-description p {
     text-align: justify;
     font-size: 1.5rem;
 }

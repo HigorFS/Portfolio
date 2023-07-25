@@ -1,0 +1,22 @@
+.contacts {
+    background: #ffffff44;
+    padding-top: 2rem;
+}
+
+.contacts h4 {
+    font-size: 4rem;
+    color: black;
+    text-align: center;
+    padding-top: 1rem;
+}
+
+.icons {
+    display: flex;
+    justify-content: center;
+}
+
+.icons a {
+    font-size: 4rem;
+    padding: 2rem;
+    color: rgb(17, 37, 216);
+}
