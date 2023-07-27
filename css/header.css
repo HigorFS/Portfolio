@@ -1,4 +1,4 @@
-.cabecalho {
+.header {
     align-items: center;
     box-sizing: border-box;
     background-color: #4c5a70;
@@ -8,14 +8,14 @@
     width: 100%;
 }
 
-.cabecalhoPrincipal-titulo .titulo{
+.headerMain-title .title{
     text-decoration: none;
     color: #000000;
     font-size: 2rem;
     margin-left: 2rem;
 }
 
-.menu-lista {
+.menu-list {
     list-style: none;
     margin: 0;
     padding: 0 5rem;
@@ -37,3 +37,21 @@
     transition: 0.3s;
 }
 
+@media (max-width: 768px) {
+    .header {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .menu-list {
+        display: flex;
+        flex-wrap: wrap;
+        padding: 0;
+        align-items: center;
+    }
+
+    .menu-item {
+        margin-right: 0;
+        margin-left: 1rem;
+    }
+}

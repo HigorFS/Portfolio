@@ -20,3 +20,9 @@
     padding: 2rem;
     color: rgb(17, 37, 216);
 }
+
+@media (max-width: 768px) {
+    .icons a {
+        font-size: 2rem;
+    }
+}
